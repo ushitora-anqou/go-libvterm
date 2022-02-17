@@ -1,10 +1,7 @@
-// +build libvterm
-
 package vterm
 
 /*
-#cgo CFLAGS: -I${SRCDIR}/libvterm/include
-#cgo LDFLAGS: ${SRCDIR}/libvterm/.libs/libvterm.a
+#cgo pkg-config: vterm
 #include <vterm.h>
 */
 import "C"
